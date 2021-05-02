@@ -1,0 +1,42 @@
+.main {
+    background-color: #282c34;
+    background-image: url('http://img.playground.ru/images/4/9/Kriminalnoe_chtivo_7648.jpg');
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 690px;
+    background-position: center center;
+}
+.error_box {
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    left: 1030px;
+    color: white;
+}
+.message_box {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 380px;
+    left: 750px;
+}
+.message {
+    padding: 15px;
+    background-color: #333333;
+    min-width: 150px;
+    max-width: 350px;
+    border-radius: 15px 15px 15px 0;
+    word-wrap: break-word;
+}
+.messageText {
+    color: white;
+    text-shadow: 1px 0 black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.angle {
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 30px, #333333 0);
+}
