@@ -1,0 +1,43 @@
+.menu_box {
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 1450px;
+}
+.menu_box a {
+    text-decoration: none;
+}
+
+.block {
+    width: 100px;
+    padding: 10px 0;
+    background: linear-gradient(270deg, transparent, #2196f3);
+    color: white;
+    margin: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+}
+.bubble {
+    width: 50px;
+    height: 50px;
+    background-color: #2196f3;
+    border-radius: 25px;
+    margin: 5px 15px;
+}
+.menu_box:hover {
+    left: 1100px;
+    transition: 1s;
+    transition-duration: 1s;
+}
+.pre_junior {
+
+}
+
+.junior {
+    left: 190px;
+}
+
+.junior_plus {
+    left: 300px;
+}
