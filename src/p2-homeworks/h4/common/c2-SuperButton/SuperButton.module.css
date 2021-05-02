@@ -1,0 +1,30 @@
+.default {
+    height: 30px;
+    width: 70px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #61dafb;
+    box-shadow: 0 0 20px #61dafb;
+    font-size: 14px;
+}
+
+.red {
+    background: red;
+    height: 30px;
+    width: 70px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #fa0000;
+}
+.default:disabled {
+    height: 30px;
+    width: 80px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #6b6767;
+    box-shadow: 0 0 20px #9e9898;
+    text-shadow: 1px 0 0 black;
+}

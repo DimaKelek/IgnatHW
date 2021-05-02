@@ -1,0 +1,25 @@
+.delete {
+    width: 100px;
+    height: 20px;
+
+}
+.affair div {
+    width: 100px;
+    padding: 10px;
+}
+.affair {
+    display: flex;
+    background-color: #282c34;
+    width: 350px;
+}
+.name {
+    color: white;
+}
+
+.filter {
+    width: 370px;
+    background-color: #282c34;
+}
+.filter button {
+    margin: 10px;
+}
