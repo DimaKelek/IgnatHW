@@ -3,6 +3,7 @@
     position: relative;
     top: 0px;
     left: 1450px;
+    transition-duration: 1s;
 }
 .menu_box a {
     text-decoration: none;

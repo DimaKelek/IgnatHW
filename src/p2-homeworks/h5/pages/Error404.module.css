@@ -1,10 +1,15 @@
+html {
+    overflow-x: hidden;
+}
 .main {
     background-color: #282c34;
     background-image: url('http://img.playground.ru/images/4/9/Kriminalnoe_chtivo_7648.jpg');
     background-repeat: no-repeat;
     padding: 20px;
     height: 690px;
+    width: 1500px;
     background-position: center center;
+
 }
 .error_box {
     position: absolute;
