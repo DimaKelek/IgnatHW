@@ -41,3 +41,7 @@
 .junior_plus {
     left: 300px;
 }
+
+.active div {
+    background: linear-gradient(200deg, transparent, #fabb3e);
+}
