@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/IgnatHW/static/css/main.6aeef160.chunk.css",
+    "main.css": "/IgnatHW/static/css/main.da2caf96.chunk.css",
     "main.js": "/IgnatHW/static/js/main.47928877.chunk.js",
     "main.js.map": "/IgnatHW/static/js/main.47928877.chunk.js.map",
     "runtime-main.js": "/IgnatHW/static/js/runtime-main.bf0a4288.js",
@@ -8,13 +8,13 @@
     "static/js/2.04f6ffe8.chunk.js": "/IgnatHW/static/js/2.04f6ffe8.chunk.js",
     "static/js/2.04f6ffe8.chunk.js.map": "/IgnatHW/static/js/2.04f6ffe8.chunk.js.map",
     "index.html": "/IgnatHW/index.html",
-    "static/css/main.6aeef160.chunk.css.map": "/IgnatHW/static/css/main.6aeef160.chunk.css.map",
+    "static/css/main.da2caf96.chunk.css.map": "/IgnatHW/static/css/main.da2caf96.chunk.css.map",
     "static/js/2.04f6ffe8.chunk.js.LICENSE.txt": "/IgnatHW/static/js/2.04f6ffe8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bf0a4288.js",
     "static/js/2.04f6ffe8.chunk.js",
-    "static/css/main.6aeef160.chunk.css",
+    "static/css/main.da2caf96.chunk.css",
     "static/js/main.47928877.chunk.js"
   ]
 }
