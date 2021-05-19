@@ -1,9 +1,10 @@
 .menu_box {
     display: flex;
-    position: relative;
-    top: 0px;
-    left: 1450px;
+    position: absolute;
+    top: 50px;
+    right: 350px;
     transition-duration: 1s;
+    transform: translateX(350px);
 }
 .menu_box a {
     text-decoration: none;
@@ -27,7 +28,7 @@
     margin: 5px 15px;
 }
 .menu_box:hover {
-    left: 1100px;
+    transform: translateX(0);
     transition: 1s;
     transition-duration: 1s;
 }

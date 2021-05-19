@@ -1,6 +1,6 @@
 .default {
     height: 30px;
-    width: 70px;
+    min-width: 70px;
     color: black;
     text-transform: uppercase;
     border-radius: 10px;
