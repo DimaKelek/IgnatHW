@@ -45,21 +45,26 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         onDoubleClick && onDoubleClick(e)
     }
     const editCallback = () => setEditMode(true)
+    const block = {
+        height: "30px",
+    }
     const spanClassName = `${'сделать красивый стиль для спана'} ${className}`
 
     return (
         <>
             {editMode
                 ? (
-                    <SuperInputText
-                        autoFocus // пропсу с булевым значением не обязательно указывать true
-                        onBlur={onBlurCallback}
-                        onEnter={onEnterCallback}
+                    <div style={block}>
+                        <SuperInputText
+                            autoFocus // пропсу с булевым значением не обязательно указывать true
+                            onBlur={onBlurCallback}
+                            onEnter={onEnterCallback}
 
-                        {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
-                    />
+                            {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
+                        />
+                    </div>
                 ) : (
-                    <div>
+                    <div style={block}>
                         <MyButton onClick={editCallback} title="✎ Edit"/>
                         <span
                             onDoubleClick={onDoubleClickCallBack}

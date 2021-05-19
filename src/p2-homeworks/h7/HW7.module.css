@@ -1,0 +1,78 @@
+.select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: #5c6664;
+    flex: 1;
+    padding: 0 10px;
+    color:#fff;
+    cursor:pointer;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.select::-ms-expand {
+    display: none;
+}
+.select_box {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    line-height: 3;
+    background: #5c6664;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 20px;
+}
+.select_box::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 15px;
+    background: #2b2e2e;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s;
+}
+.select_box:hover::after {
+    color: #23b499;
+}
+
+.radio_box {
+    margin: 20px;
+    display: flex;
+}
+
+.radio {
+    display: none;
+}
+.fakeRadio {
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+    border-radius: 10px;
+}
+.fakeRadio::before {
+    content: "";
+    background: #2196f3 ;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .2s;
+}
+.radio:checked + .fakeRadio::before {
+    opacity: 1;
+}
