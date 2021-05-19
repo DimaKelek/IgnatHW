@@ -1,12 +1,12 @@
 import {UserType} from "../HW8";
 
-const SortUpAC = () => {
+export const SortUpAC = () => {
     return {type: "SORT-UP"} as const
 }
-const SortDownAC = () => {
+export const SortDownAC = () => {
     return {type: "SORT-DOWN"} as const
 }
-const Check18AC = () => {
+export const Check18AC = () => {
     return {type: "CHECK-18"} as const
 }
 

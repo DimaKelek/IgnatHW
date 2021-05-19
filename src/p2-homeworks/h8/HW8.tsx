@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {homeWorkReducer} from './bll/homeWorkReducer'
+import {Check18AC, homeWorkReducer, SortDownAC, SortUpAC} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import S from './HW8.module.css'
 
@@ -29,9 +29,9 @@ function HW8() {
         </div>
     ))
 
-    const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'SORT-UP'}))
-    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: 'SORT-DOWN'}))
-    const check18 = () => setPeople(homeWorkReducer(initialPeople, {type: 'CHECK-18'}))
+    const sortUp = () => setPeople(homeWorkReducer(initialPeople, SortUpAC()))
+    const sortDown = () => setPeople(homeWorkReducer(initialPeople, SortDownAC()))
+    const check18 = () => setPeople(homeWorkReducer(initialPeople, Check18AC()))
 
     return (
         <div>
