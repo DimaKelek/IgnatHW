@@ -1,0 +1,16 @@
+.HW {
+    margin: 20px;
+}
+.user {
+    margin: 20px;
+}
+.user > div {
+    display: inline-block;
+}
+.name {
+    width: 150px;
+}
+.button {
+    display: inline-block;
+    margin-right: 10px;
+}
