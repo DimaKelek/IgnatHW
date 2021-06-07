@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/IgnatHW/static/css/main.355f8184.chunk.css",
-    "main.js": "/IgnatHW/static/js/main.04986279.chunk.js",
-    "main.js.map": "/IgnatHW/static/js/main.04986279.chunk.js.map",
+    "main.js": "/IgnatHW/static/js/main.e305b16f.chunk.js",
+    "main.js.map": "/IgnatHW/static/js/main.e305b16f.chunk.js.map",
     "runtime-main.js": "/IgnatHW/static/js/runtime-main.bf0a4288.js",
     "runtime-main.js.map": "/IgnatHW/static/js/runtime-main.bf0a4288.js.map",
     "static/js/2.39f9b370.chunk.js": "/IgnatHW/static/js/2.39f9b370.chunk.js",
@@ -10,12 +10,13 @@
     "index.html": "/IgnatHW/index.html",
     "static/css/main.355f8184.chunk.css.map": "/IgnatHW/static/css/main.355f8184.chunk.css.map",
     "static/js/2.39f9b370.chunk.js.LICENSE.txt": "/IgnatHW/static/js/2.39f9b370.chunk.js.LICENSE.txt",
-    "static/media/ReactCheckbox.module.css": "/IgnatHW/static/media/check-removebg.7440766d.png"
+    "static/media/ReactCheckbox.module.css": "/IgnatHW/static/media/check-removebg.7440766d.png",
+    "static/media/kappa.70364a88.png": "/IgnatHW/static/media/kappa.70364a88.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bf0a4288.js",
     "static/js/2.39f9b370.chunk.js",
     "static/css/main.355f8184.chunk.css",
-    "static/js/main.04986279.chunk.js"
+    "static/js/main.e305b16f.chunk.js"
   ]
 }
