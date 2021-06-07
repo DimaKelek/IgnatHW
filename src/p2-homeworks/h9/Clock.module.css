@@ -1,0 +1,22 @@
+.clock {
+    width: 200px;
+    height: 100px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    background-color: #333333;
+}
+
+.controlPanel {
+    margin: 10px 55px;
+}
+
+.clock > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3;
+}

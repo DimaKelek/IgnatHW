@@ -5,17 +5,19 @@ import S from "./Nav.module.css"
 
 function Header() {
     return (
-        <div className={S.menu_box}>
-            <div className={S.bubble}/>
-            <NavLink to={PATH.PRE_JUNIOR} activeClassName={S.active}>
-                <div className={S.pre_junior + " " + S.block}>Pre Junior</div>
-            </NavLink>
-            <NavLink to={PATH.JUNIOR} activeClassName={S.active}>
-                <div className={S.junior + " " + S.block}>Junior</div>
-            </NavLink>
-            <NavLink to={PATH.JUNIOR_PLUS} activeClassName={S.active}>
-                <div className={S.junior_plus + " " + S.block}>Junior +</div>
-            </NavLink>
+        <div className={S.menu}>
+            <div className={S.menu_container}>
+                <div className={S.bubble}/>
+                <NavLink to={PATH.PRE_JUNIOR} activeClassName={S.active}>
+                    <div className={`${S.pre_junior} ${S.button}`}>Pre Junior</div>
+                </NavLink>
+                <NavLink to={PATH.JUNIOR} activeClassName={S.active}>
+                    <div className={`${S.junior} ${S.button}`}>Junior</div>
+                </NavLink>
+                <NavLink to={PATH.JUNIOR_PLUS} activeClassName={S.active}>
+                    <div className={`${S.junior_plus} ${S.button}`}>Junior +</div>
+                </NavLink>
+            </div>
         </div>
     )
 }
