@@ -1,0 +1,40 @@
+.HW10 {
+    width: 200px;
+    height: 300px;
+    margin: 10px 25px;
+    background-color: #333333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader {
+    width: 200px;
+}
+.preloader img {
+    width: 200px;
+    animation-name: rotation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    from{
+        transform: rotate(0)
+    }
+    to{
+        transform: rotate(360deg)
+    }
+}
+
+.title {
+    padding: 10px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3;
+}

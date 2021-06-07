@@ -17,7 +17,6 @@ function Clock() {
            setDate(new Date())
         }, 1000)
         setTimerId(id)
-        console.log(id);
     }
 
     const onMouseEnter = () => {
