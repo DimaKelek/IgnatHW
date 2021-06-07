@@ -4,6 +4,7 @@ import S from "./HW10.module.css"
 import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "./bll/store";
 import {loadingAC} from "./bll/loadingReducer";
+import preloader from "./kappa.png"
 
 function HW10() {
     const loading = useSelector<AppStoreType, boolean>(state => state.loading.isLoading)
@@ -26,7 +27,7 @@ function HW10() {
                 ? (
                     <div className={S.HW10}>
                         <div className={S.preloader}>
-                            <img src={"https://goo.su/5Wva"} alt="preloader"/>
+                            <img src={preloader} alt="preloader"/>
                         </div>
                         <div className={S.title}>Hello Ignat :P</div>
                     </div>
