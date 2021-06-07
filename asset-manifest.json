@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/IgnatHW/static/css/main.da2caf96.chunk.css",
-    "main.js": "/IgnatHW/static/js/main.47928877.chunk.js",
-    "main.js.map": "/IgnatHW/static/js/main.47928877.chunk.js.map",
+    "main.css": "/IgnatHW/static/css/main.355f8184.chunk.css",
+    "main.js": "/IgnatHW/static/js/main.04986279.chunk.js",
+    "main.js.map": "/IgnatHW/static/js/main.04986279.chunk.js.map",
     "runtime-main.js": "/IgnatHW/static/js/runtime-main.bf0a4288.js",
     "runtime-main.js.map": "/IgnatHW/static/js/runtime-main.bf0a4288.js.map",
-    "static/js/2.04f6ffe8.chunk.js": "/IgnatHW/static/js/2.04f6ffe8.chunk.js",
-    "static/js/2.04f6ffe8.chunk.js.map": "/IgnatHW/static/js/2.04f6ffe8.chunk.js.map",
+    "static/js/2.39f9b370.chunk.js": "/IgnatHW/static/js/2.39f9b370.chunk.js",
+    "static/js/2.39f9b370.chunk.js.map": "/IgnatHW/static/js/2.39f9b370.chunk.js.map",
     "index.html": "/IgnatHW/index.html",
-    "static/css/main.da2caf96.chunk.css.map": "/IgnatHW/static/css/main.da2caf96.chunk.css.map",
-    "static/js/2.04f6ffe8.chunk.js.LICENSE.txt": "/IgnatHW/static/js/2.04f6ffe8.chunk.js.LICENSE.txt"
+    "static/css/main.355f8184.chunk.css.map": "/IgnatHW/static/css/main.355f8184.chunk.css.map",
+    "static/js/2.39f9b370.chunk.js.LICENSE.txt": "/IgnatHW/static/js/2.39f9b370.chunk.js.LICENSE.txt",
+    "static/media/ReactCheckbox.module.css": "/IgnatHW/static/media/check-removebg.7440766d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bf0a4288.js",
-    "static/js/2.04f6ffe8.chunk.js",
-    "static/css/main.da2caf96.chunk.css",
-    "static/js/main.47928877.chunk.js"
+    "static/js/2.39f9b370.chunk.js",
+    "static/css/main.355f8184.chunk.css",
+    "static/js/main.04986279.chunk.js"
   ]
 }
