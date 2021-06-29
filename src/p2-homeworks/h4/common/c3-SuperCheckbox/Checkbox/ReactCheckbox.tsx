@@ -5,16 +5,15 @@ type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElem
 
 type NeonCheckboxPropsType = DefaultInputPropsType & {
     checked?: boolean
-    setChecked?: (e: boolean) => void
+    onChangeChecked?: (e: boolean) => void
 }
 
-export const ReactCheckbox: React.FC<NeonCheckboxPropsType> = (
-    {onChange, children, setChecked, checked, ...restProps}
-    ) => {
+export const ReactCheckbox: React.FC<NeonCheckboxPropsType> = props => {
+    const {onChange, children, onChangeChecked, checked, ...restProps} = props
 
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
         onChange && onChange(e)
-        setChecked && setChecked(e.currentTarget.checked)
+        onChangeChecked && onChangeChecked(e.currentTarget.checked)
     }
     const labelCheckbox = `${S.check} ${S.option}`
     return (

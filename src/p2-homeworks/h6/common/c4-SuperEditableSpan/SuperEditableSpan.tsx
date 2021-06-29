@@ -1,6 +1,6 @@
 import React, {DetailedHTMLProps, InputHTMLAttributes, HTMLAttributes, useState} from 'react'
-import SuperInputText from '../../../h4/common/c1-SuperInputText/SuperInputText'
-import {MyButton} from "../MyButton/MyButton";
+import {SuperInput} from "../../../h4/common/c1-SuperInputText/SuperInput";
+import {MyButton} from "../../../h4/common/c2-SuperButton/MyButton";
 
 // тип пропсов обычного инпута
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
@@ -18,16 +18,9 @@ type SuperEditableSpanType = DefaultInputPropsType & { // и + ещё пропс
     spanProps?: DefaultSpanPropsType // пропсы для спана
 }
 
-const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
-    {
-        autoFocus, // игнорировать изменение этого пропса
-        onBlur,
-        onEnter,
-        spanProps,
+const SuperEditableSpan: React.FC<SuperEditableSpanType> = props => {
+    const {autoFocus, onBlur, onEnter, spanProps, ...restProps} = props
 
-        ...restProps// все остальные пропсы попадут в объект restProps
-    }
-) => {
     const [editMode, setEditMode] = useState<boolean>(false)
     const {children, onDoubleClick, className, ...restSpanProps} = spanProps || {}
 
@@ -55,7 +48,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
             {editMode
                 ? (
                     <div style={block}>
-                        <SuperInputText
+                        <SuperInput
                             autoFocus // пропсу с булевым значением не обязательно указывать true
                             onBlur={onBlurCallback}
                             onEnter={onEnterCallback}
@@ -65,7 +58,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                     </div>
                 ) : (
                     <div style={block}>
-                        <MyButton onClick={editCallback} title="✎ Edit"/>
+                        <MyButton onClick={editCallback}>✎ Edit</MyButton>
                         <span
                             onDoubleClick={onDoubleClickCallBack}
                             className={spanClassName}

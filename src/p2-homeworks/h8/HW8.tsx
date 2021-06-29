@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Check18AC, homeWorkReducer, SortDownAC, SortUpAC} from './bll/homeWorkReducer'
-import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import S from './HW8.module.css'
+import {MyButton} from "../h4/common/c2-SuperButton/MyButton";
 
 export type UserType = {
     _id: number
@@ -45,9 +45,9 @@ function HW8() {
             {/*should work (должно работать)*/}
             <div className={S.HW}>
                 {finalPeople}
-                <div className={S.button}><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-                <div className={S.button}><SuperButton onClick={sortDown}>sort Down</SuperButton></div>
-                <div className={S.button}><SuperButton onClick={check18}>check 18</SuperButton></div>
+                <div className={S.button}><MyButton onClick={sortUp}>sort up</MyButton></div>
+                <div className={S.button}><MyButton onClick={sortDown}>sort Down</MyButton></div>
+                <div className={S.button}><MyButton onClick={check18}>check 18</MyButton></div>
             </div>
 
             <hr/>

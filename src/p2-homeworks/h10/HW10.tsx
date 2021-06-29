@@ -1,10 +1,10 @@
 import React from "react";
-import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import S from "./HW10.module.css"
 import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "./bll/store";
 import {loadingAC} from "./bll/loadingReducer";
 import preloader from "./kappa.png"
+import {MyButton} from "../h4/common/c2-SuperButton/MyButton";
 
 function HW10() {
     const loading = useSelector<AppStoreType, boolean>(state => state.loading.isLoading)
@@ -34,7 +34,7 @@ function HW10() {
                 ) : (
                     <div className={S.HW10}>
                         <div className={S.button}>
-                           <SuperButton onClick={setLoading}>Set loading...</SuperButton>
+                           <MyButton onClick={setLoading}>Set loading...</MyButton>
                         </div>
                     </div>
                 )
