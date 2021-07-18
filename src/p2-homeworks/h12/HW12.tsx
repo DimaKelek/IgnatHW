@@ -23,7 +23,7 @@ function HW12() {
                 value={theme}
                 onChangeOption={changeThemeHandler}
             />
-            <div className={`${s.screen} ${s[theme + '-screen']}`}/>
+            <div />
             {/*should work (должно работать)*/}
             {/*SuperSelect or SuperRadio*/}
 
