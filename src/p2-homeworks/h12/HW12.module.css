@@ -1,0 +1,45 @@
+
+.dark {
+    background: dimgrey;
+}
+
+.dark-text {
+    color: aliceblue;
+}
+
+.red {
+    background: lightcoral;
+}
+
+.red-text {
+    color: aqua;
+}
+
+.some {
+    background: lightgreen;
+}
+
+.some-text {
+    color: darkslateblue;
+}
+
+.screen {
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.dark-screen {
+    background: url("https://goo.su/6nIP") no-repeat;
+    background-size: cover;
+}
+
+.red-screen {
+    background: url("https://goo.su/6NiP") no-repeat;
+    background-size: cover;
+}
+
+.some-screen {
+    background: url("https://goo.su/6nIr") no-repeat;
+    background-size: cover;
+}

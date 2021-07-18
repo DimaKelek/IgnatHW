@@ -14,23 +14,18 @@ function HW7() {
             homeworks 7
 
             {/*should work (должно работать)*/}
-            <div className={S.select_box}>
-                <SuperSelect
-                    options={arr}
-                    value={value}
-                    onChangeOption={onChangeOption}
-                    className={S.select}
-                />
-            </div>
-            <div>
-                <SuperRadio
-                    name={'radio'}
-                    options={arr}
-                    value={value}
-                    onChangeOption={onChangeOption}
-                    className={S.radio}
-                />
-            </div>
+            <SuperSelect
+                options={arr}
+                value={value}
+                onChangeOption={onChangeOption}
+            />
+            <SuperRadio
+                name={'radio'}
+                options={arr}
+                value={value}
+                onChangeOption={onChangeOption}
+                className={S.radio}
+            />
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
