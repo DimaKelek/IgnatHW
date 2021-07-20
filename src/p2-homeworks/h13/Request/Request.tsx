@@ -4,9 +4,7 @@ import {ReactCheckbox} from "../../h4/common/c3-SuperCheckbox/Checkbox/ReactChec
 import {MyButton} from "../../h4/common/c2-SuperButton/MyButton";
 import {requestAPI} from "../API/Api";
 
-type RequestPropsType = {
-
-}
+type RequestPropsType = {}
 
 export const Request: React.FC<RequestPropsType> = props => {
     const [checked, setChecked] = useState<boolean>(false)
@@ -19,12 +17,15 @@ export const Request: React.FC<RequestPropsType> = props => {
             setRes(error.response ? error.response.data.errorText : error.message)
         }
     }
+    // аналог через then
     // const request = (success: boolean) => {
-    //     requestAPI.test(success).then(response => {
-    //         setRes(response.data.errorText)
-    //     }).catch(error => {
-    //         setRes(error.response ? error.response.data.errorText : error.message)
-    //     })
+    //     requestAPI.test(success)
+    //         .then(response => {
+    //             setRes(response.data.errorText)
+    //         })
+    //         .catch(error => {
+    //             setRes(error.response ? error.response.data.errorText : error.message)
+    //         })
     // }
     const onChangeCheckbox = () => {setChecked(!checked)}
     const requestCallback = () => {
